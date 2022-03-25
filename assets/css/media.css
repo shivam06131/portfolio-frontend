@@ -145,11 +145,18 @@
     top: -16%;
   }
   .get-started-img-bitmap {
-    left: 16px;
+    left: 10px;
     bottom: 0;
   }
 }
 @media (max-width: 1000px) {
+  .h-1 {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #391400;
+  }
   .container {
     width: 100%;
   }
@@ -159,6 +166,15 @@
   }
   .build-dream-project-bottom-detail-wrapper {
     padding-bottom: 80px;
+  }
+  /* --------------- founder ---------------  */
+  .founder-col-2 {
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+  /* --------------- un lock ---------------  */
+  .unlock-right-column {
+    padding-left: 20px;
   }
   /* --------------- map ---------------  */
   .map-form-container {
@@ -171,20 +187,52 @@
     padding-bottom: 20px;
   }
 
+  /* --------------plan -----------  */
+  .plans-card {
+    /* background: #ffffff !important; */
+    border-radius: 6px 6px 0px 0px !important;
+    margin-top: 0px !important;
+  }
+  /* --------------event -----------  */
+  .event-card-wrapper {
+    padding: 0px;
+  }
+  /* --------------latest work -----------  */
+  .latest-work-menu {
+    /* padding: 36px 198px 0px 198px; */
+    padding: 36px;
+  }
   /* --------------news letter -----------  */
   .form-input {
     padding: 7px 5px;
     width: 100%;
   }
-  .new-letter-button-wrapper {
+  /* .new-letter-button-wrapper {
     padding-top: 16px;
     padding-left: 0;
+  } */
+  .new-letter-wrapper {
+    padding-top: 60px;
+    padding-bottom: 115px;
+    display: flex !important;
+    align-items: center;
+  }
+  .new-letter-button-wrapper {
+    padding-left: 10px;
+  }
+  .form-control {
+    padding-right: 90px;
+  }
+  /* ------------------contact -----------  */
+  .contact-card {
+    padding: 32px 28px 38px 32px;
+  }
+  /* ------------------dream project -----------  */
+  .dream-project-container-wrapper {
+    padding: 94px 44px 72px 40px;
   }
 }
-@media (max-width: 768px) {
-  /* .container {
-    width: 90%;
-  } */
+@media (max-width: 767px) {
   /* -----------navbar-------------  */
   .navigation-wrapper {
     display: none;
@@ -271,6 +319,9 @@
     display: flex;
     justify-content: center;
   }
+  .unlock-right-column {
+    padding-left: 0px;
+  }
   /* ---------------- feature ----------   */
   .feature-pre-heading {
     text-align: center;
@@ -284,14 +335,23 @@
   /* .feature-right-column-box-wrapper {
     width: 50% !important;
   } */
+  .box-holder {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+  }
   .box-1-wrapper {
     display: flex;
     justify-content: center;
+    max-width: 400px;
   }
   .feature-column-one {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .feature-acc {
+    padding-top: 36px;
   }
   /* ---------------- new look ----------   */
   .new-look-wrapper {
@@ -368,6 +428,16 @@
   .get-started-button-wrapper {
     padding-bottom: 0px;
   }
+  /* -------------------founder ---------  */
+  .founder-ph-wrapper {
+    padding-top: 41px !important;
+  }
+  /* -------------------event ---------  */
+  .event-card-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 36px;
+  }
   /* -------------------services ---------  */
 
   .services-single-box-wrapper {
@@ -390,14 +460,40 @@
     top: 324px;
     left: 85%;
   }
+  .new-letter-button-wrapper {
+    padding-top: 16px;
+    padding-left: 0;
+  }
+  /* -------------------- blog -----------  */
+  .blog-heading {
+    max-width: 350px;
+    padding-bottom: 30px;
+  }
+
+  /* -------------------- new-letter -----------  */
+  .new-letter-right {
+    display: flex;
+    padding-top: 28px;
+    flex-direction: column;
+  }
+  .new-letter-button {
+    width: 100%;
+  }
+
   /* -------------------- footer -----------  */
   .footer-icon-wrapper {
     display: flex !important;
     justify-content: center;
     margin-top: 52px;
   }
+  .footer-menu-holder {
+    text-align: center;
+  }
+  .footer-menu {
+    text-align: center;
+    padding-top: 48px;
+  }
 }
-
 @media (max-width: 576px) {
   .h-1 {
     font-weight: 800;
@@ -632,6 +728,9 @@
   .feature-right-column-box-wrapper {
     width: 90%;
   }
+  .box-holder {
+    display: block;
+  }
   /* -------------- digital products ------------  */
   .feature-wrapper {
     padding: 0px 0 112px 0;
@@ -847,6 +946,7 @@
   }
   .awards-name {
     padding-right: 0;
+    padding-left: 0px;
   }
   .awards-left-item-name {
     padding-top: 26px;
@@ -930,7 +1030,7 @@
     max-width: 274px;
   }
   .dream-project-button-wrapper {
-    padding-top: 10px;
+    padding-top: 21px;
   }
   /* -----------------footer --------------  */
   .footer-wrapper {

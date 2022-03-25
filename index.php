@@ -59,10 +59,15 @@
 							<p class="build-dream-project-paragraph build-dream-project-paragraph-mobile">
 								Agency provides a full service range including technical skills, design, business understanding.
 							</p>
-							<button class="build-dream-project-work-button">
+							<div class="build-btn-wrapper">
+								<button class=" btn btn-primary">
+									HOW WE WORK
+								</button>
+								<!-- <button class="build-dream-project-work-button">
 								HOW WE WORK
-							</button>
-							<a href="#" class="build-dream-project-contact-us-btn">Contact Us</a>
+							</button> -->
+								<a href="#" class="build-dream-project-contact-us-btn">Contact Us</a>
+							</div>
 							<div class="build-dream-project-bottom-detail-wrapper d-flex">
 								<img src="./assets/images/Bitmap.png" alt="" class="image">
 								<div class="build-dream-project-bottom-detail-wrapper-data d-flex flex-column">
@@ -144,22 +149,25 @@
 				<!-- -------------right section-------------- -->
 				<div class="experience-right-section col-md-6 col-12">
 					<div class="experience-heading-2">
-						<p class="pre-heading p-18">
+						<p class="pre-heading p-0">
 							ABOUT
 						</p>
-						<h1 class="h-1 p-5">
+						<h1 class="h-1 h-1-wrapper">
 							An Experience </br>
 							Design Agency
 						</h1>
-						<h5 class="sub-heading p-18">
+						<h5 class="sub-heading long-sh-wrapper">
 							Provides a full service range
 						</h5>
-						<p class="light-body p-26">
+						<p class="light-body lb-wrapper-without-sh">
 							Ability to put themselves in the merchant's shoes. It is meant to partner on the long run, and work as an extension of the merchant's team.
 						</p>
-						<button class="btn-white experience-button">
+						<button class="btn btn-light exp-btn-wrapper">
 							ABOUT US
 						</button>
+						<!-- <button class="btn-white short-btn-wrapper">
+							ABOUT US
+						</button> -->
 					</div>
 				</div>
 			</div>
@@ -175,7 +183,7 @@
 						<h3 class="h-2">
 							42%
 						</h3>
-						<h5 class="number-data-info sub-heading">
+						<h5 class="sub-heading short-sh-wrapper">
 							Years of experience
 						</h5>
 					</div>
@@ -186,7 +194,7 @@
 						<h3 class="h-2">
 							73+
 						</h3>
-						<h5 class="number-data-info sub-heading">
+						<h5 class="sub-heading short-sh-wrapper">
 							Agency members
 						</h5>
 					</div>
@@ -197,7 +205,7 @@
 						<h3 class="h-2">
 							5.000
 						</h3>
-						<h5 class="number-data-info sub-heading">
+						<h5 class="sub-heading short-sh-wrapper">
 							Projects complete
 						</h5>
 					</div>
@@ -211,48 +219,21 @@
 			<div class="make-project-wrapper row gx-0">
 				<!-- --------------left section-------------  -->
 				<div class="make-project-left-section col-md-5  col-12">
-					<h4 class="make-project-left-heading-2">
+					<h4 class="pre-heading">
 						How we work
 					</h4>
 					<!-- ----------for desktop--------  -->
-					<h2 class="make-project-left-heading-1  make-project-heading-mobile">
+					<h2 class="h-2 h-2-wrapper">
 						Making Your Projects
 						Look Awesome
 					</h2>
-					<p class="make-project-left-paragraph">
+					<p class="light-body lb-wrapper">
 						Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.
 					</p>
-					<a class="btn btn-link">Read More</a>
+					<a href="#" class="btn btn-link btn-link-wrapper">Read More</a>
 				</div>
 				<!-- --------------right section-------------  -->
 				<div class="make-project-right-section col-md-7 col-12">
-					<!-- -----------item one-------- -->
-					<!-- <div class="make-project-right-section-item-one-wrapper d-flex align-items-center">
-						<h2 class="make-project-right-section-item-sr-no">
-							1
-						</h2>
-						<div class="make-project-right-section-item-info">
-							Full service range including
-						</div>
-					</div> -->
-					<!-- -----------item two-------- -->
-					<!-- <div class="make-project-right-section-item-two-wrapper d-flex align-items-center">
-						<h2 class="make-project-right-section-item-sr-no">
-							2
-						</h2>
-						<div class="make-project-right-section-item-info">
-							Technical skills, design, business
-						</div>
-					</div> -->
-					<!-- -----------item three-------- -->
-					<!-- <div class="make-project-right-section-item-three-wrapper d-flex align-items-center">
-						<h2 class="make-project-right-section-item-sr-no">
-							3
-						</h2>
-						<div class="make-project-right-section-item-info">
-							Themselves in the merchant's
-						</div>
-					</div> -->
 					<ol class="list-numbering" type="1">
 						<li>
 							Full service range including
@@ -273,19 +254,19 @@
 		<div class="container">
 			<div class="unlock-wrapper row gx-2">
 				<!-- --------left column-------------  -->
-				<div class="col-md-6 col-12  gx-0 unlock-left-column">
+				<div class="col-md-6 col-12 unlock-left-column">
 					<img src="./assets/images/unlock/unlock.png" alt="">
 					<img src="./assets/images/unlock/play.png" class=" position-absolute top-50 start-50 translate-middle" alt="">
 				</div>
 				<!-- --------right column-------------  -->
-				<div class="col-md-6 col-12 unlock-right-column gx-0">
+				<div class="col-md-6 col-12 unlock-right-column">
 					<h6 class="pre-heading">
 						Video Reel
 					</h6>
-					<h2 class="unlock-heading h-2">
+					<h2 class="h-2 h-2-wrapper">
 						Unlock The Greatest Value Possible
 					</h2>
-					<p class="unlock-paragraph light-body">
+					<p class="light-body lb-wrapper">
 						Design, business understanding, ability to put themselves in the merchant's shoes meant to partner.
 					</p>
 				</div>
@@ -298,15 +279,15 @@
 			<div class="new-look-wrapper row">
 				<!-- ------------left column ------------  -->
 				<div class="new-look-left-column col-md-6 order-1 order-md-0 col-12">
-					<h5 class="new-look-pre pre-heading">
+					<h5 class="pre-heading">
 						Features
 					</h5>
-					<h4 class="new-look-heading h-1">
+					<h4 class="h-1 h-1-wrapper">
 						Give Your Site
 						A New Look
 					</h4>
 					<!-- ---------- para desktop ------------  -->
-					<p class="new-look-paragraph active-body">
+					<p class="active-body active-body-wrapper">
 						Service range including technical skills, design, business understanding.
 					</p>
 
@@ -347,13 +328,13 @@
 			<div class="feature-wrapper row">
 				<!-- ----------feature column 1-------------  -->
 				<div class="col-md-5 order-1 col-12 feature-column-one">
-					<p class="pre-heading">
+					<h6 class="pre-heading">
 						Features
-					</p>
-					<h5 class="sub-heading">
+					</h6>
+					<h5 class="sub-heading long-sh-wrapper">
 						Long run, and work as an extension of the merchant's team.
 					</h5>
-					<a class="feature-read-more btn btn-link">
+					<a href="#" class="btn-link-wrapper btn btn-link">
 						Read More
 					</a>
 				</div>
@@ -370,7 +351,7 @@
 								<h4 class="feature-box-heading feature-box-active-heading " id="feature-box-heading-1">
 									Professional
 								</h4>
-								<p class="light-body feature-box-paragraph" id="feature-active-box-body">
+								<p class="light-body feature-box-p" id="feature-active-box-body">
 									Full service range including technical skills, design.
 								</p>
 							</div>
@@ -386,7 +367,7 @@
 								<h4 class="feature-box-heading" id="feature-box-heading-2">
 									Accessibility
 								</h4>
-								<p class="feature-box-paragraph light-body" id="feature-passive-box-paragraph">
+								<p class="feature-box-p light-body" id="feature-passive-box-paragraph">
 									Business understanding, ability to put themselves.
 								</p>
 							</div>
@@ -405,14 +386,14 @@
 					<img src="./assets/images/digital-product/digital-product-img-1.png" class="img-fluid" alt="">
 				</div>
 				<div class="col-md-6 col-12 digital-right">
-					<p class="pre-heading">
+					<h6 class="pre-heading">
 						Service
-					</p>
-					<h class="digital-heading h-1">
+					</h6>
+					<h2 class="h-1 h-1-wrapper">
 						Making Complex
 						Digital Products
-					</h>
-					<p class="digital-body sub-heading">
+					</h2>
+					<p class="long-sh-wrapper sub-heading">
 						Agency provides a full service range including technical skills, design, business.
 					</p>
 					<div class="digital-detail-wrapper d-flex align-items-center">
@@ -422,13 +403,16 @@
 							"Understanding, ability to put themselves in the merchant's shoes. It is meant to partner."
 						</p>
 					</div>
-					<h5 class="digital-products-author-name">
+					<h5 class="digital-products-author">
 						Jenny Murtaugh
 					</h5>
 					<div class="button-wrapper">
-						<button class="btn-white">
+						<button class="btn btn-light">
 							Explore
 						</button>
+						<!-- <button class="btn-white">
+							Explore
+						</button> -->
 					</div>
 				</div>
 			</div>
@@ -438,10 +422,10 @@
 	<section class="services">
 		<div class="container">
 			<div class="services-wrapper row gx-2">
-				<p class="pre-heading col-12">
+				<h6 class="pre-heading col-12">
 					Service
-				</p>
-				<h class="services-heading h-1 col-12">
+				</h6>
+				<h class="h-2-wrapper h-1 col-12">
 					How Our Agency</br>
 					Can Help
 				</h>
@@ -455,10 +439,10 @@
 						<h2 class="services-box-heading">
 							Design
 						</h2>
-						<p class="services-body light-body">
+						<p class="light-body lb-wrapper-without-sh">
 							Agency provides a full service range including technical skills, design.
 						</p>
-						<a class="services-link btn btn-link">Learn More</a>
+						<a href="#" class="btn-link-wrapper btn btn-link">Learn More</a>
 					</div>
 					<!-- ----------box 2--------------  -->
 					<div class="services-single-box-wrapper services-box-2 services-box-item col-md-4 col-12">
@@ -469,10 +453,10 @@
 						<h2 class="services-box-heading">
 							Development
 						</h2>
-						<p class="services-body light-body">
+						<p class="light-body lb-wrapper-without-sh">
 							Full service range including technical</br> skills, design, business.
 						</p>
-						<a class="services-link btn btn-link">Discover More</a>
+						<a href="#" class="btn-link-wrapper btn btn-link">Discover More</a>
 					</div>
 					<!-- ----------box 3--------------  -->
 					<div class="services-single-box-wrapper services-box-3 services-box-item col-md-4 col-12">
@@ -483,10 +467,10 @@
 						<h2 class="services-box-heading">
 							Marketing
 						</h2>
-						<p class="services-body light-body">
+						<p class="light-body lb-wrapper-without-sh">
 							Technical skills, design, business</br> understanding, ability.
 						</p>
-						<a class="services-link btn btn-link">Explore Now</a>
+						<a href="#" class="btn-link-wrapper btn btn-link">Explore Now</a>
 					</div>
 				</div>
 			</div>
@@ -499,10 +483,10 @@
 				<h6 class="latest-work-pre-heading ">
 					Portfolio
 				</h6>
-				<h1 class="latest-work-heading h-1 ">Latest Work</h1>
+				<h1 class="h-1 h-1-wrapper text-white text-center">Latest Work</h1>
 				<!-- -----------display in desktop --------------  -->
 				<div class="latest-work-menu-item latest-work-menu d-flex justify-content-between">
-					<p class="latest-work-menu-item1 latest-work-nav position-relative nav-active 1" data-filter="*">Show All</p>
+					<p class="latest-work-menu-item1 latest-work-nav position-relative nav-active" data-filter="*">Show All</p>
 					<p class="latest-work-menu-item2 latest-work-nav position-relative" data-filter=".design">Design</p>
 					<p class="latest-work-menu-item3 latest-work-nav position-relative" data-filter=".branding">Branding</p>
 					<p class="latest-work-menu-item4 latest-work-nav position-relative" data-filter=".illustration">Illustration</p>
@@ -613,11 +597,11 @@
 	<!-- ------------------------events ------------------------- -->
 	<section class="events">
 		<div class="container ">
-			<div class="events-wrapper event-padding">
-				<p class="events-pre-heading">
+			<div class="event-padding">
+				<p class="text-center pre-heading">
 					Events
 				</p>
-				<h4 class="events-heading h-1 text-white">
+				<h4 class="events-heading text-center h-1 text-white">
 					Explore Future</br>
 					Conferences
 				</h4>
@@ -644,7 +628,7 @@
 							<p class="events-body">
 								Digital agency is a business you hire to outsource your digital.
 							</p>
-							<a class="btn btn-link events-explore">Explore Now</a>
+							<a href="#" class="btn btn-link events-explore">Explore Now</a>
 						</div>
 					</div>
 					<!-- -------------card two ----------------  -->
@@ -667,9 +651,9 @@
 								Interior Design
 							</h5>
 							<p class="events-body">
-								Marketing efforts, instead of </br> handling in-house.
+								Marketing efforts, instead of handling in-house.
 							</p>
-							<a class="btn btn-link events-explore">Explore Now</a>
+							<a href="#" class="btn btn-link events-explore">Explore Now</a>
 						</div>
 					</div>
 					<!-- -------------card three ----------------  -->
@@ -692,13 +676,13 @@
 								The F design events
 							</h5>
 							<p class="events-body">
-								Provide your business with a variety </br> of digital solutions to promote.
+								Provide your business with a variety of digital solutions to promote.
 							</p>
-							<a class="btn btn-link events-explore">Explore Now</a>
+							<a href="#" class="btn btn-link events-explore">Explore Now</a>
 						</div>
 					</div>
 				</div>
-				<div class="events-explore-btn d-flex justify-content-center">
+				<div class="long-btn-wrapper d-flex justify-content-center">
 					<button class="outline-button">
 						Explore More
 					</button>
@@ -710,11 +694,11 @@
 	<section class="team">
 		<div class="container">
 			<div class="team-wrapper position-relative col-12">
-				<p class="team-pre-heading pre-heading">
+				<p class="pre-heading">
 					Our Team
 				</p>
 				<div class="d-flex justify-content-between">
-					<h3 class="team-heading h-1">
+					<h3 class="h-1-wrapper text-white h-1">
 						Team of Designers</br>
 						and Developers
 					</h3>
@@ -842,7 +826,7 @@
 					<img src="./assets/images/founder/founder-bitmap.png" class="img-fluid" alt="">
 				</div>
 				<div class="col-md-6 col-12 founder-col-2">
-					<h5 class="founder-pre-heading pre-heading">
+					<h5 class="pre-heading founder-ph-wrapper">
 						Founder Words
 					</h5>
 					<h3 class="founder-heading h-2">
@@ -856,7 +840,7 @@
 	<section class="clients">
 		<div class="container">
 			<div class="clients-wrapper">
-				<p class="clients-pre-heading pre-heading">
+				<p class="text-center pre-heading">
 					Testimonials
 				</p>
 				<h3 class="clients-heading h-1">
@@ -870,7 +854,7 @@
 							<!-- ----------- item one ------------  -->
 							<div class="client-passive-card">
 								<img src="./assets/images/clients/client-rating.png" alt="">
-								<p class="client-active-body light-body">
+								<p class="lb-wrapper light-body">
 									A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you.
 								</p>
 								<div class="client-details-wrapper d-flex">
@@ -884,7 +868,7 @@
 							<!-- ----------- item two ------------  -->
 							<div class="client-passive-card client-passive-card ">
 								<img src="./assets/images/clients/client-rating.png" alt="">
-								<p class="client-active-body light-body">
+								<p class="lb-wrapper light-body">
 									Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety.
 								</p>
 								<div class="client-details-wrapper d-flex">
@@ -903,7 +887,7 @@
 							<!-- ----------- item one ------------  -->
 							<div class="client-passive-card">
 								<img src="./assets/images/clients/client-rating.png" alt="">
-								<p class="client-active-body light-body">
+								<p class="lb-wrapper light-body">
 									Outsource your digital marketing efforts, instead of handling in-house. They can provide your business with a variety.
 								</p>
 								<div class="client-details-wrapper d-flex">
@@ -918,7 +902,7 @@
 							<!-- ----------- item two ------------  -->
 							<div class="client-passive-card">
 								<img src="./assets/images/clients/client-rating.png" alt="">
-								<p class="client-active-body">
+								<p class="lb-wrapper light-body">
 									Promote your product or service online and help you hit your marketing goals and grow your business.
 								</p>
 								<div class="client-details-wrapper d-flex">
@@ -960,7 +944,7 @@
 						<h5 class="plans-card-pre-heading pre-heading">
 							Consultation
 						</h5>
-						<h3 class="plans-card-status h-2">
+						<h3 class="h-2-wrapper h-2">
 							Free
 						</h3>
 						<p class="plans-card-body light-body">
@@ -991,7 +975,7 @@
 							</div>
 						</div>
 						<div class="client-card-button-wrapper">
-							<button class="btn-white">
+							<button class="btn btn-light">
 								Contact Us
 							</button>
 						</div>
@@ -1004,7 +988,7 @@
 						<h5 class="pre-heading active-plans-card-pre-heading">
 							Design
 						</h5>
-						<h3 class="plans-card-status h-2">
+						<h3 class="h-2-wrapper h-2">
 							$1500
 						</h3>
 						<p class="plans-card-body light-body">
@@ -1035,17 +1019,20 @@
 							</div>
 						</div>
 						<div class="client-card-button-wrapper">
-							<button class="orange-button">
+							<button class="btn btn-primary">
 								Contact Us
 							</button>
+							<!-- <button class="orange-button">
+								Contact Us
+							</button> -->
 						</div>
 					</div>
 					<!-- ------------------card 3 -----------------------  -->
 					<div class="plans-card plans-third-card-border col-md-4 col-12 gx-0">
-						<h5 class="pre-heading">
+						<h5 class="pre-heading plans-card-pre-heading">
 							Design+Code
 						</h5>
-						<h3 class="plans-card-status h-2">
+						<h3 class="h-2-wrapper h-2">
 							$2900
 						</h3>
 						<p class="plans-card-body light-body">
@@ -1076,7 +1063,7 @@
 							</div>
 						</div>
 						<div class="client-card-button-wrapper">
-							<button class="btn-white">
+							<button class="btn btn-light">
 								Contact Us
 							</button>
 						</div>
@@ -1091,22 +1078,24 @@
 			<div class="questions-wrapper row gx-0 justify-content-between">
 				<!-- -------- left column ----------  -->
 				<div class="col-xl-5 col-md-6 col-12">
-					<p class="questions-pre-heading">
+					<p class="pre-heading">
 						Faq
 					</p>
-					<h4 class="questions-heading">
+					<h4 class="h-2 h-2 wrapper">
 						Frequently Asked</br>
 						Questions
 					</h4>
-					<p class="questions-body">
+					<h6 class="light-body lb-wrapper">
 						A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
-					</p>
-					<a href="mailto:info@agency.com" class="question-contact">
-						Contact Us
-					</a>
+					</h6>
+					<div class="btn-link-wrapper">
+						<a href="mailto:info@agency.com" class="btn-link">
+							Contact Us
+						</a>
+					</div>
 				</div>
 				<!-- -------- right column ----------  -->
-				<div class="col-12 col-md-6">
+				<div class="feature-acc col-12 col-md-6">
 					<div class="accordion" id="questionsAccordion">
 						<!-- -----------item one ----------  -->
 						<div class="accordion-item">
@@ -1118,7 +1107,7 @@
 								</button>
 							</h4>
 							<div id="item-one" class="accordion-collapse collapse show" data-bs-parent="#questionsAccordion">
-								<div class="accordion-body acc-body">
+								<div class="acc-body light-body">
 									Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
 								</div>
 							</div>
@@ -1133,7 +1122,7 @@
 								</button>
 							</h4>
 							<div id="item-two" class="accordion-collapse collapse" data-bs-parent="#questionsAccordion">
-								<div class="accordion-body acc-body">
+								<div class="acc-body light-body">
 									Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
 								</div>
 							</div>
@@ -1148,7 +1137,7 @@
 								</button>
 							</h4>
 							<div id="item-three" class="accordion-collapse collapse " data-bs-parent="#questionsAccordion">
-								<div class="accordion-body acc-body">
+								<div class="acc-body light-body">
 									Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
 								</div>
 							</div>
@@ -1163,7 +1152,7 @@
 								</button>
 							</h4>
 							<div id="item-four" class="accordion-collapse collapse" data-bs-parent="#questionsAccordion">
-								<div class="accordion-body acc-body">
+								<div class="acc-body light-body">
 									Digital marketing efforts, instead of handling in-house. They can provide your business with a variety of digital solutions to promote your product or service online and help you hit your marketing goals and grow your business.
 								</div>
 							</div>
@@ -1178,7 +1167,7 @@
 	<section class="awards">
 		<div class="container">
 			<div class="awards_wrapper">
-				<h3 class="awards-heading">
+				<h3 class="text-center h-2">
 					Our Awards
 				</h3>
 				<div class="award-items-wrapper">
@@ -1186,15 +1175,15 @@
 					<div class="awards-item-one top-line bottom-line d-flex flex-md-row flex-column justify-content-between align-items-center row">
 						<div class="awards-left-item d-flex align-items-center  flex-md-row flex-column col-3">
 							<img src="./assets/images/awards/awards-left-1.png" alt="">
-							<h5 class="awards-left-item-name">SOFA</h5>
+							<h5 class="awards-name active-body">SOFA</h5>
 						</div>
 						<div class="awards-item-mid  col-6 col-md-3">
-							<h5 class="awards-item-mid-text  ">
+							<h5 class="text-center light-body">
 								25 Oct, 2021
 							</h5>
 						</div>
 						<div class="awards-item-right d-flex justify-content-md-end align-items-center col-6 col-md-3 flex-md-row flex-column justify-content-center">
-							<h4 class="awards-name">
+							<h4 class="awards-name light-body">
 								Awwwards
 							</h4>
 							<img src="./assets/images/awards/awards-right-1.png" alt="">
@@ -1204,10 +1193,10 @@
 					<div class="awards-item-one bottom-line d-flex justify-content-between align-items-center row flex-column flex-md-row">
 						<div class="awards-left-item d-flex align-items-center flex-column flex-md-row col-3">
 							<img src="./assets/images/awards/awards-left-2.png" alt="">
-							<h5 class="awards-left-item-name">KeyBoard</h5>
+							<h5 class="awards-name active-body">KeyBoard</h5>
 						</div>
 						<div class="awards-item-mid  col-6 col-md-3 tex-align-center">
-							<h5 class="awards-item-mid-text  ">
+							<h5 class="text-center light-body">
 								19 Oct, 2021
 							</h5>
 						</div>
@@ -1222,10 +1211,10 @@
 					<div class="awards-item-one bottom-line d-flex justify-content-between align-items-center flex-column flex-md-row row">
 						<div class="awards-left-item d-flex align-items-center flex-column flex-md-row text-center text-md-start col-6 col-md-3">
 							<img src="./assets/images/awards/awards-left-3.png" alt="">
-							<h5 class="awards-left-item-name">Work Media</h5>
+							<h5 class="awards-name active-body">Work Media</h5>
 						</div>
 						<div class="awards-item-mid  col-6 col-md-3 tex-align-center">
-							<h5 class="awards-item-mid-text  ">
+							<h5 class="text-center light-body">
 								7 Oct, 2021
 							</h5>
 						</div>
@@ -1237,8 +1226,8 @@
 						</div>
 					</div>
 					<div class="award-more-award d-flex justify-content-center">
-						<a href="#" class="more-award">
-							Want more awards? <a href="#" class="more-award-dark">Explore Now</a>
+						<a href="#" class="more-award light-body">
+							Want more awards? <a href="#" class="more-award-dark light-body">Explore Now</a>
 						</a>
 					</div>
 				</div>
@@ -1249,16 +1238,16 @@
 	<section class="blog">
 		<div class="container">
 			<div class="blog-wrapper bottom-line">
-				<p class="blog-pre-heading">
+				<p class="pre-heading">
 					Our Blog
 				</p>
 				<div class="d-flex flex-column flex-md-row justify-content-between">
-					<h3 class="blog-heading">
-						Latest Blog</br>
+					<h3 class="blog-heading h-1 h-1-wrapper">
+						Latest Blog
 						Articles
 					</h3>
 					<div class="align-self-md-end">
-						<button class="btn-white">
+						<button class="btn btn-light">
 							Discover All
 						</button>
 					</div>
@@ -1269,13 +1258,13 @@
 						<a href="#">
 							<img src="./assets/images/blog/blog-1.png" alt="">
 						</a>
-						<a href="#" class="blog-card-name">
+						<a href="#" class="sub-heading long-sh-wrapper">
 							Stories
 						</a>
 						<a href="#" class="card-blog-heading">
 							Agency is a business you</br> hire to outsource
 						</a>
-						<a href="#" class="blog-card-date">
+						<a href="#" class="light-body lb-wrapper-without-sh">
 							5 Nov, 2021
 						</a>
 					</div>
@@ -1285,13 +1274,13 @@
 						<a href="#">
 							<img src="./assets/images/blog/blog-2.png" alt="">
 						</a>
-						<a href="#" class="blog-card-name">
+						<a href="#" class="sub-heading long-sh-wrapper">
 							Design
 						</a>
 						<a href="#" class="card-blog-heading">
 							Outsource your digital</br> marketing efforts
 						</a>
-						<a href="#" class="blog-card-date">
+						<a href="#" class="light-body lb-wrapper-without-sh">
 							29 Oct, 2021
 						</a>
 					</div>
@@ -1300,13 +1289,13 @@
 						<a href="#">
 							<img src="./assets/images/blog/blog-3.png" alt="">
 						</a>
-						<a href="#" class="blog-card-name">
+						<a href="#" class="sub-heading long-sh-wrapper">
 							Marketing
 						</a>
 						<a href="#" class="card-blog-heading">
 							Your business with a</br> variety of digital
 						</a>
-						<a href="#" class="blog-card-date">
+						<a href="#" class="light-body lb-wrapper-without-sh">
 							21 Oct, 2021
 						</a>
 					</div>
@@ -1318,13 +1307,17 @@
 	<section class="news-letter">
 		<div class="container ">
 			<div class="new-letter-wrapper flex-column flex-md-row d-flex justify-content-between ">
-				<h4 class="new-letter-heading">
+				<h4 class="h-2">
 					Newsletter
 				</h4>
 				<div class="new-letter-right">
-					<input class="form-input blog-input" type="text" placeholder="Your email">
+					<!-- <input class="form-input blog-input" type="text" placeholder="Your email"> -->
+					<form>
+						<input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your email">
+					</form>
+
 					<div class="new-letter-button-wrapper d-md-inline-block d-block">
-						<button class="btn-white new-letter-button">
+						<button class="btn btn-light new-letter-button">
 							Subscribe
 						</button>
 					</div>
@@ -1347,11 +1340,10 @@
 					<h4 class="map-form-heading">
 						Get In Touch
 					</h4>
-					<div class="map-input-top">
+					<!-- <div class="map-input-top">
 						<input class="form-input " type="text" placeholder="Your email">
 					</div>
 					<div class="map-input-top">
-						<!-- <div class=" drop-down-input position-relative"> -->
 						<select name="cars" class="map-form-drop-down form-input map-select-tag m-0">
 							<option value="volvo">Subject</option>
 							<option value="volvo">Subject 1</option>
@@ -1359,13 +1351,30 @@
 							<option value="opel">Subject 3</option>
 							<option value="audi">Subject 4</option>
 						</select>
-						<!-- </div> -->
 					</div>
 					<div class="map-input-top">
 						<textarea class="map-text-area" placeholder="Message" name="text-area" id="" cols="40" rows="3"></textarea>
-					</div>
+					</div> -->
+					<form>
+						<div class="map-input-wrapper">
+							<input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your email">
+						</div>
+						<div class="form-group map-input-wrapper">
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>select</option>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</div>
+						<div class="form-group map-input-wrapper">
+							<textarea placeholder="Message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+					</form>
 					<div class="map-form-button-wrapper">
-						<button class="orange-button">Submit Now</button>
+						<button class="btn btn-primary">Submit Now</button>
 					</div>
 				</div>
 				<!-- ---------map pin -----------  -->
@@ -1384,7 +1393,7 @@
 							<img src="./assets/images/contact/contact-oval.png" alt="">
 							<img src="./assets/images/contact/contact-shape-1.png" alt="" class="position-absolute start-50 top-50 translate-middle">
 						</div>
-						<a href="tel:+1 (234) 567-89-00" class="contact-icon">
+						<a href="tel:+1 (234) 567-89-00" class="contact-icon pre-heading">
 							Phone
 						</a>
 					</div>
@@ -1399,7 +1408,7 @@
 							<img src="./assets/images/contact/contact-oval.png" alt="">
 							<img src="./assets/images/contact/contact-shape-2.png" alt="" class="position-absolute start-50 top-50 translate-middle">
 						</div>
-						<a href="mailto:info@agency.com" class="contact-icon">
+						<a href="mailto:info@agency.com" class="contact-icon pre-heading">
 							EMail
 						</a>
 					</div>
@@ -1414,7 +1423,7 @@
 							<img src="./assets/images/contact/contact-oval.png" alt="">
 							<img src="./assets/images/contact/contact-shape-3.png" alt="" class="position-absolute start-50 top-50 translate-middle">
 						</div>
-						<a href="https://maps.google.com/?2247 Lunetta Street, TX 76301" class="contact-icon">
+						<a href="https://maps.google.com/?2247 Lunetta Street, TX 76301" class="contact-icon pre-heading">
 							Address
 						</a>
 					</div>
@@ -1430,13 +1439,13 @@
 		<div class="container">
 			<div class="dream-project-container-wrapper d-flex flex-column-reverse flex-md-row justify-content-between">
 				<div class="dream-project-left-section">
-					<h3 class="dream-project-heading">
+					<h3 class="h-1 text-white">
 						We’re Help</br>
 						To Build Your</br>
 						Dream Project</br>
 					</h3>
 					<!-- ---------------------- for desktop ------------  -->
-					<p class="dream-project-body">
+					<p class="dream-project-body lb-wrapper light-body">
 						A digital agency is a business you hire to outsource your digital marketing efforts, instead of handling in-house.
 					</p>
 
@@ -1465,10 +1474,10 @@
 				</div>
 				<!-- --------------- col 2------------------  -->
 				<div class="col-md-2 offset-md-1 col-12 offset-0">
-					<h4 class="footer-menu text-center">
+					<h4 class="footer-menu  pre-heading">
 						Menu
 					</h4>
-					<div class="footer-menu-holder text-center">
+					<div class="footer-menu-holder">
 						<a href="#" class="menu-item">
 							About
 						</a>
@@ -1485,10 +1494,10 @@
 				</div>
 				<!-- --------------- col 3------------------  -->
 				<div class="col-md-2 offset-md-1 col-12 offset-0">
-					<h4 class="footer-menu text-center">
+					<h4 class="footer-menu  pre-heading">
 						Service
 					</h4>
-					<div class="footer-menu-holder text-center">
+					<div class="footer-menu-holder">
 						<a href="#" class="menu-item">
 							Design
 						</a>
